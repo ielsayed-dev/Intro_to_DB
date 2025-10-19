@@ -13,7 +13,7 @@ def create_database():
         connection = mysql.connector.connect(
             host='localhost',
             user='root',
-            port=3307,
+            port=3307
             password='entameen'
         )
         
@@ -29,7 +29,7 @@ def create_database():
             # Close cursor
             cursor.close()
             
-    except Error as e:
+    except mysql.connector.Error as e:
         # Handle connection and execution errors
         print(f"Error while connecting to MySQL: {e}")
         
