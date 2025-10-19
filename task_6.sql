@@ -1,5 +1,5 @@
 -- SET THE TARGET DATABASE
-USE ALX_BOOK_STORE;
+USE alx_book_store;
 
 -- Inserts multiple rows into the CUSTOMERS table using a single statement.
 INSERT INTO CUSTOMERS (CUSTOMER_ID, CUSTOMER_NAME, EMAIL, ADDRESS) VALUES
